@@ -1,15 +1,17 @@
 import React from "react";
 import blogData from "../data/blog";
+import Header from "./Header";
 
 console.log(blogData);
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      You're on your own from here! Follow the deliverables; test things out in
-      the browser as you write your code; and good luck!
+      <Header />
+      <aside>{/* Content for Aside component */}</aside>
+      <main>{/* Content for Main component (e.g., ArticleList) */}</main>
     </div>
   );
-}
+};
 
 export default App;
